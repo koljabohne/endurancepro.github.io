@@ -1,0 +1,82 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+main {
+    background: white;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.app-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.app-image {
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+.app-description h1 {
+    margin-top: 0;
+    color: #007bff;
+}
+
+.contact-section, .privacy-section {
+    margin-top: 40px;
+}
+
+
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.privacy-section {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #333; /* Dunkle Schriftfarbe für bessere Lesbarkeit */
+}
+
+footer p {
+    color: #333; /* Dunkle Schriftfarbe, falls noch andere Inhalte im Footer sind */
+}
