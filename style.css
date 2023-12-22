@@ -1,0 +1,72 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header h1 {
+    padding: 0 20px;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.description, .contact, .privacy {
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+
+
+.contact a {
+    color: #fff;                     /* Weißer Text */
+    background-color: #007bff;       /* Blauer Hintergrund */
+    padding: 5px 10px;               /* Innenabstand für bessere Sichtbarkeit */
+    border-radius: 5px;              /* Abgerundete Ecken */
+    text-decoration: none;           /* Keine Unterstreichung */
+    display: inline-block;           /* Block-Element, um Polsterung und Rand zu ermöglichen */
+}
+
+.contact a:hover {
+    text-decoration: underline;      /* Unterstreichung beim Hover für bessere Benutzererfahrung */
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.privacy h2 {
+    color: #333;           /* Dunkle Textfarbe */
+    margin-bottom: 10px;   /* Abstand zwischen Überschrift und Text */
+}
+
+.privacy p {
+    text-align: left;      /* Linksbündiger Text */
+}
